@@ -19,6 +19,7 @@ This portfolio landing page consists of a brief introduction to the current proj
 * Using cmd GUI, navigate to the cloned directory named "portfolio"
 * Continued in cmd GUI, open index.html to view project locally
 * Directory contents such as css stylesheet, img, and readme can also be accessed
+* Url to index.html: https://pphila.github.io/portfolio/
 
 ## Known Bugs
 * Initial cupcake.html code did not push into remote repo. Only file that was successfully pushed was stylesheet.
