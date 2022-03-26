@@ -4,6 +4,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+section {
+  padding: 30vh 0;
+}
+
+.one {
+  background: white;
+  position: relative;
+}
+
+.one::after,
+.one::before {
+  position: absolute;
+  content: '';
+  width: 150px;
+  height: 150px;
+  background: white;
+  bottom: 0;
+}
+
+.one::before {
+  right: 50%;
+  transform: skew(0, 20deg);
+  z-index: 100;
+}
+
+.one::after {
+  left: 50%;
+  transform: skew(0, -20deg)
+}
+
+.one__img {
+  clip-path: circle;
+}
+
 h1 {
  color: whitesmoke;
  font-size: 52px;
@@ -11,9 +45,14 @@ h1 {
 
 .intro {
   background-color: rgba(30, 125, 138, 0.5);
+  width: 600px;
+  border-radius: 40px;
   margin: 0 auto;
   padding: 30px;
   text-align: center;
+  display: grid;
+  place-items: center;
+  position: relative;
 }
 
 h2 {
@@ -21,12 +60,13 @@ text-align: center;
 }
 
 .projects {
-  background-color: rgba(62, 30, 138, 0.5)
-
+  background-color: rgba(62, 30, 138, 0.5);
+  position: relative;
 }
 
 .about {
-  background-color: rgba(206, 125, 19, 0.75)
+  background-color: rgba(206, 125, 19, 0.75);
+  position: relative;
 }
 
 h3{
