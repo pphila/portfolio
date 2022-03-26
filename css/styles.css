@@ -27,6 +27,21 @@ section {
   bottom: 0;
 }
 
+.two {
+  background: black;
+  height: 1000px;
+  width: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.three {
+  background: white;
+  height: 1000px;
+  width: auto;
+
+}
+
 .one::before {
   right: 50%;
   transform: skew(0, 20deg);
@@ -35,12 +50,14 @@ section {
 
 .one::after {
   left: 50%;
-  transform: skew(0, -20deg)
+  transform: skew(0, -20deg);
+  z-index: 100;
 }
 
 h1 {
  color: whitesmoke;
  font-size: 52px;
+ text-shadow: 2px 2px darkgray;
 }
 
 .intro {
@@ -57,6 +74,7 @@ h1 {
 
 h2 {
 text-align: center;
+text-shadow: 0 0 4px black;
 }
 
 .projects {
@@ -86,5 +104,5 @@ text-align: center;
 }
 
 h3{
-  text-shadow: 0 0 3px black;
+  color: darkblue;
 }
