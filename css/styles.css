@@ -1,5 +1,5 @@
 body {
-  Background: black;
+  Background: white;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -28,11 +28,12 @@ section {
 }
 
 .two {
-  background: black;
+  background: linear-gradient(0.25turn, lightgray, darkgray, black);
   height: 1000px;
   width: auto;
   position: relative;
   z-index: 10;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20vw), 0 100%);
 }
 
 .three {
@@ -79,8 +80,8 @@ text-shadow: 0 0 4px black;
 
 .projects {
   background-color: rgba(62, 30, 138, 0.5);
-  width: 600px;
-  height: 800px;
+  width: 1000px;
+  height: auto;
   border-radius: 20px;
   margin: 0, auto;
   padding: 30px;
@@ -88,12 +89,18 @@ text-shadow: 0 0 4px black;
   place-items: center;
   position: relative;
   float: left;
+  font-size: 18px;
+}
+
+span {
+  color: black;
+  font-weight: bold;
 }
 
 .about {
-  background-color: rgba(206, 125, 19, 0.75);
-  width: 600px;
-  height: 800px;
+  background-color: rgba(206, 134, 19, 0.75);
+  width: 1000px;
+  height: auto;
   border-radius: 20px;
   margin: 0, auto;
   padding: 30px;
@@ -101,8 +108,9 @@ text-shadow: 0 0 4px black;
   place-items: center;
   position: relative;
   float: right;
+  font-size: 18px;
 }
 
 h3{
-  color: darkblue;
+  color: black;
 }
