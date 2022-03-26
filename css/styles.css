@@ -4,6 +4,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+  border-radius: 20px;
+}
+
 section {
   padding: 30vh 0;
 }
@@ -34,8 +38,8 @@ section {
   transform: skew(0, -20deg)
 }
 
-.one__img {
-  clip-path: circle;
+.two {
+  position: relative;
 }
 
 h1 {
@@ -61,6 +65,12 @@ text-align: center;
 
 .projects {
   background-color: rgba(62, 30, 138, 0.5);
+  width: 600px;
+  height: 40px;
+  margin: 0, auto;
+  padding: 30px;
+  display: grid;
+  place-items: center;
   position: relative;
 }
 
@@ -70,5 +80,4 @@ text-align: center;
 }
 
 h3{
-
 }
