@@ -38,10 +38,6 @@ section {
   transform: skew(0, -20deg)
 }
 
-.two {
-  position: relative;
-}
-
 h1 {
  color: whitesmoke;
  font-size: 52px;
@@ -66,18 +62,29 @@ text-align: center;
 .projects {
   background-color: rgba(62, 30, 138, 0.5);
   width: 600px;
-  height: 40px;
+  height: 800px;
+  border-radius: 20px;
   margin: 0, auto;
   padding: 30px;
   display: grid;
   place-items: center;
   position: relative;
+  float: left;
 }
 
 .about {
   background-color: rgba(206, 125, 19, 0.75);
+  width: 600px;
+  height: 800px;
+  border-radius: 20px;
+  margin: 0, auto;
+  padding: 30px;
+  display: grid;
+  place-items: center;
   position: relative;
+  float: right;
 }
 
 h3{
+  text-shadow: 0 0 3px black;
 }
