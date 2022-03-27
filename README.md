@@ -1,4 +1,4 @@
-# Peter Philavanh's Portfolie Landing Page
+# Peter Philavanh's Portfolio Landing Page
 #### By Peter Philavanh
 
 
